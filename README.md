@@ -1,4 +1,4 @@
-# [NumberlogyFREE.com]()
+# [NumberlogyFREE.com](https://christinereina.github.io/epicodus-numberology/)
 
 #### Epicodus Week Two JavaScript & jQuery Project | Programming Language Suggester, 03.27.2020
 
@@ -8,7 +8,7 @@
 
 ![Landing Page Preview](img file goes here)
 
-**[View Live Preview]()**
+**[View Live Preview](https://christinereina.github.io/epicodus-numberology/)**
 
 ## Description
 
@@ -23,7 +23,7 @@ Clone the project's github repository from your computer's Terminal (make sure y
 
 Open folder and drag/drop the index.html file into your preferred web browser
 
-Alternatively, you can also view the webpage by clicking [here]([link goes here])
+Alternatively, you can also view the webpage by clicking [here](https://christinereina.github.io/epicodus-numberology/)
 
 Lastly, enjoy my site!
 
