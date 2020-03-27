@@ -5,28 +5,29 @@ $(document).ready(function() {
     $(".second-screen").toggle(".no-show");
     $("form#quiz").submit(function(event) {
       event.preventDefault();
-      var q1 = parseInt($("#q1").val());
-      var q2 = parseInt($("#q2").val());
-      var q3 = parseInt($("#q3").val());
-      var celebrity = q1+q2+q3;
+      var question1 = parseInt($("input:radio[name=q1]:checked").val());
+      var question2 = parseInt($("input:radio[name=q2]:checked").val());
+      var question3 = parseInt($("input:radio[name=q3]:checked").val());
+      var question4 = parseInt($("input:radio[name=q4]:checked").val());
+      var question5 = parseInt($("input:radio[name=q5]:checked").val());
+      var result = question1 + question2 + question3 +  question4 + question5;
   
-  
-      if (celebrity < 4 ) {
-        $("#ponyo").toggle();
-        $("#sosuke").hide();
-        $("#lisa").hide();
+      if (result < 4 ) {
+        $("#ruby").toggle();
+        $("#python").hide();
+        $("#js").hide();
         $('#quiz').hide();
       }
-      else if (celebrity >= 3 && celebrity <= 7) {
-        $("#sosuke").toggle();
-        $("#ponyo").hide();
-        $("#lisa").hide();
+      else if (result >= 3 && result <= 7) {
+        $("#python").toggle();
+        $("#js").hide();
+        $("#ruby").hide();
         $('#quiz').hide();
       }
       else if (celebrity >= 7 && celebrity <= 10) {
-        $("#lisa").toggle();
-        $("#ponyo").hide();
-        $("#sosuke").hide();
+        $("#js").toggle();
+        $("#ruby").hide();
+        $("#python").hide();
         $('#quiz').hide();
       }
     });
