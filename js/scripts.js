@@ -24,7 +24,7 @@ $(document).ready(function() {
         $("#ruby").hide();
         $('#quiz').hide();
       }
-      else if (celebrity >= 7 && celebrity <= 10) {
+      else if (result >= 7 && result <= 10) {
         $("#js").toggle();
         $("#ruby").hide();
         $("#python").hide();
