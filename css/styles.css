@@ -23,7 +23,7 @@ h1 {
 }
 
 h2 {
-  padding-top: -300px;
+  /* padding-top: -300px; */
 }
 
 body {
@@ -34,14 +34,8 @@ body {
   text-align: center;
 }
 
-.gradient {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.form-show{
+.report-show{
+  padding: -100px;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -54,8 +48,15 @@ body {
   display: none;
 }
 
-.second-screen{
-  width: 100vw;
-  height: 100vh;
-  background-color: bisque;
+.second-screen {
+
+}
+/* 
+#js, #python, #ruby {
+  display:none;
+} */
+
+img {
+  height: 400px;
+  width: auto;
 }
