@@ -1,0 +1,61 @@
+/* @keyframes title-color{
+  0%{
+    
+    background-color: whitesmoke;
+  }
+  50%{
+    
+    background-color: black;
+  }
+  100%{
+
+    background-color: whitesmoke;
+  }
+}
+h1{
+  animation: title-color 10s ease-in-out infinite;
+} */
+
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 90px;
+  color: aliceblue;
+}
+
+h2 {
+  padding-top: -300px;
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-size: 100%;
+  font-family: 'Raleway', sans-serif;
+  color: azure;
+  text-align: center;
+}
+
+.gradient {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-show{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-show{
+  display: none;
+}
+
+.second-screen{
+  width: 100vw;
+  height: 100vh;
+  background-color: bisque;
+}
