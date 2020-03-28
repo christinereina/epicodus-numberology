@@ -12,19 +12,19 @@ $(document).ready(function() {
       var question5 = parseInt($("input:radio[name=q5]:checked").val());
       var result = question1 + question2 + question3 +  question4 + question5;
   
-      if (result < 4 ) {
+      if (result < 6 ) {
         $("#ruby").fadeIn();
         $("#python").hide();
         $("#js").hide();
         $('#quiz').hide();
       }
-      else if (result >= 3 && result <= 7) {
+      else if (result >= 7 && result <= 10) {
         $("#python").fadeIn();
         $("#js").hide();
         $("#ruby").hide();
         $('#quiz').hide();
       }
-      else if (result >= 7 && result <= 10) {
+      else if (result >= 11 && result <= 15) {
         $("#js").fadeIn();
         $("#ruby").hide();
         $("#python").hide();
