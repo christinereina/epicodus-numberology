@@ -1,4 +1,4 @@
-# [NumberlogyFREE.com](https://christinereina.github.io/epicodus-numberology/)
+# [NumberlogyFree.com](https://christinereina.github.io/epicodus-numberology/)
 
 #### Epicodus Week Two JavaScript & jQuery Project | Programming Language Suggester, 03.27.2020
 
