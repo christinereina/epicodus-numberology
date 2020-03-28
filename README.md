@@ -6,7 +6,7 @@
 
 ## Preview
 
-![Landing Page Preview](img file goes here)
+![Landing Page Preview](./img/livepreview.png)
 
 **[View Live Preview](https://christinereina.github.io/epicodus-numberology/)**
 
