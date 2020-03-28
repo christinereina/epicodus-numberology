@@ -3,7 +3,8 @@
 h1 {
   font-family: 'Righteous', cursive;
   font-size: 80px;
-  color: aliceblue;
+  color: aliceblue; 
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
 }
 
 h2 {
