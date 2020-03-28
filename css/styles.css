@@ -11,15 +11,16 @@
 
     background-color: whitesmoke;
   }
-}
-h1{
-  animation: title-color 10s ease-in-out infinite;
 } */
+h1{
+  
+}
 
 h1 {
   font-family: 'Righteous', cursive;
-  font-size: 90px;
+  font-size: 80px;
   color: aliceblue;
+  animation: title-color 10s ease-in-out infinite;
 }
 
 h2 {
@@ -39,9 +40,9 @@ body {
 }
 
 .report-show{
-  padding: -100px;
   width: 100vw;
   height: 100vh;
+  margin-top: -60px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,3 +65,4 @@ img {
   height: 400px;
   width: auto;
 }
+
