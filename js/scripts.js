@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  $("#getReport").submit(function(event){
-   event.preventDefault();
+  $("#getReport").click(function(event){
+    event.preventDefault();
     $(".report-show").slideUp(".no-show");
     $(".second-screen").slideDown(".no-show");
     $("form#quiz").submit(function(event) {
