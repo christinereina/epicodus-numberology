@@ -1,8 +1,9 @@
 $(document).ready(function() {
   $("#getReport").click(function(event){
     event.preventDefault();
-    $(".report-show").slideUp(".no-show");
+    $(".intro").slideUp(".no-show");
     $(".second-screen").slideDown(".no-show");
+
     $("form#quiz").submit(function(event) {
       event.preventDefault();
       var question1 = parseInt($("input:radio[name=q1]:checked").val());
@@ -18,13 +19,13 @@ $(document).ready(function() {
         $("#js").hide();
         $('#quiz').hide();
       }
-      else if (result >= 7 && result <= 10) {
+      else if (result <= 7 && result <= 10) {
         $("#python").fadeIn();
         $("#js").hide();
         $("#ruby").hide();
         $('#quiz').hide();
       }
-      else if (result >= 11 && result <= 15) {
+      else if (result >= 10 && result <= 15) {
         $("#js").fadeIn();
         $("#ruby").hide();
         $("#python").hide();

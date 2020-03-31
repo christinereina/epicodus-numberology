@@ -33,7 +33,7 @@ body {
   color: aliceblue;
 }
 
-.report-show{
+.intro {
   width: 100vw;
   height: 100vh;
   margin-top: -60px;
@@ -47,9 +47,6 @@ body {
   display: none;
 }
 
-.second-screen {
-
-}
 
 #js, #python, #ruby {
   display:none;
@@ -61,6 +58,7 @@ img {
   margin-top: -130px;
   height: 320px;
   width: auto;
+  margin-bottom: 20px;
 }
 
 .btn-primary {
